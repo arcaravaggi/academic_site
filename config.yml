@@ -57,7 +57,7 @@ params:
           enabled: true
           title: Dr Anthony Caravaggi
           subtitle: "I am a Lecturer in Conservation Biology and Course Leader for BSc (Hons) Wildlife Ecology and Conservation (previously International Wildlife Biology) at the The University of South Wales. My work is broadly focussed on conducting research that increases our understanding of species ecologies and informs conservation and management processes."
-          imageUrl: "picture.jpeg"
+          imageUrl: "profile.jpeg"
           imageWidth: 160
           imageHeight: 160
           buttons:
