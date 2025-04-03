@@ -1,5 +1,5 @@
-baseURL: "https://pascalmichaillat.org/hugo-website/" 
-title: Moritz-Maria von Igelfeld
+baseURL: "https://arcaravaggi.github.io/" 
+title: Dr Anthony Caravaggi
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -10,25 +10,28 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
-          weight: 5 
-        - name: Papers
+        - name: Projects
+          url: projects/
+          weight: 2 
+        - name: Publications
           url: papers/
-          weight: 2
-        - name: Courses
-          url: courses/
           weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
+        - name: Teaching
+          url: teaching/
+          weight: 4
+        - name: Service
+          url: service/
+          weight: 5 
+        - name: Posts
+          url: posts/
+          weight: 6   
+        - name: Contact
+          url: contact/
+          weight: 7
 
 params:
-    description: "I am a Professor of Philology at the Institute of Romance Philology in Regensburg, Germany. My research focuses mostly on Portuguese irregular verbs."
-    author: Moritz-Maria von Igelfeld
+    description: "I am a Lecturer in Conservation Biology and Course Leader for BSc (Hons) Wildlife Ecology and Conservation at the The University of South Wales. My research focuses on increasing our understanding of the various aspects of species-specific and community ecology."
+    author: Dr Anthony Caravaggi
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
@@ -42,7 +45,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data"]
+    MainSections: ["projects","papers", "teaching", "service", "posts", "contact"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -52,48 +55,44 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Professor Dr von Igelfeld
-          subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
+          title: Dr Anthony Caravaggi
+          subtitle: "I am a Lecturer in Conservation Biology and Course Leader for BSc (Hons) Wildlife Ecology and Conservation (previously International Wildlife Biology) at the The University of South Wales. My work is broadly focussed on conducting research that increases our understanding of species ecologies and informs conservation and management processes."
           imageUrl: "picture.jpeg"
           imageWidth: 160
           imageHeight: 160
           buttons:
-            - name: Papers
+            - name: Projects
+              url: projects/
+            - name: Publications
               url: papers/
-            - name: Courses
-              url: courses/
-            - name: Data
-              url: data/
-            - name: Books
-              url: books/
-            - name: Tags
-              url: tags/
+            - name: Teaching
+              url: teaching/
+            - name: Service
+              url: service/
+            - name: Posts
+              url: posts/
             - name: Archive
               url: archive/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+            - name: Contact
+              url: contact/
 
     socialIcons:
         - name: CV
           url: cv.pdf
         - name: Email
-          url: mailto:moritz.maria.von.igelfeld@gmail.com
-        - name: Zoom
-          url: https://www.zoom.us/my/igelfeld
+          url: mailto:anthony.caravaggi@southwales.ac.uk
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/arcaravaggi/
         - name: Location
           url: location/
         - name: Office Hours
           url: officehours/
         - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
+          url: https://scholar.google.co.uk/citations?user=PXf81KIAAAAJ
         - name: GitHub
-          url: https://github.com/pmichaillat
-        - name: Substack
-          url: https://pmichaillat.substack.com
-        - name: YouTube
-          url: https://www.youtube.com/@alexandermccallsmithoffici9000
-        - name: Twitter
-          url: https://twitter.com/McCallSmith
+          url: https://github.com/arcaravaggi
+        - name: BlueSky
+          url: https://bsky.app/profile/thonoir.bsky.social
 
     assets:
         disableScrollBarStyle: true
@@ -101,7 +100,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
+      text: "Anthony Caravaggi"
       icon: favicon.ico
       iconHeight: 18
 
